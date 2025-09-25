@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ứng dụng Tư vấn Bán hàng The Mona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ứng dụng Tư vấn Bán hàng The Mona</h1>
+
+        <div id="product-info-section" class="section">
+            <h2>Thông tin sản phẩm The Mona</h2>
+            <div id="product-details">
+                </div>
+        </div>
+
+        <div id="sales-advice-section" class="section">
+            <h2>Tư vấn bán hàng</h2>
+            <p>Chọn loại khách hàng để nhận lời khuyên:</p>
+            <select id="customer-type-select">
+                <option value="none">-- Chọn loại khách hàng --</option>
+                <option value="hoai_nghi">Khách hàng hoài nghi</option>
+                <option value="quan_tam_gia">Khách hàng quan tâm giá</option>
+                <option value="chua_biet">Khách hàng chưa biết gì</option>
+            </select>
+            <button id="get-advice-button">Nhận lời khuyên</button>
+            <div id="advice-output">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
